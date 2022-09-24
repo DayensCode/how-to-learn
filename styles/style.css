@@ -95,9 +95,6 @@
   align-self: center;
   width: 80%;
   min-height: 330px;
-}
-
-.two-columns {
   display: flex;
   justify-content: space-between;
 }
