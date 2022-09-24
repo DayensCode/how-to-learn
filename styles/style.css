@@ -299,6 +299,7 @@
 /* здесь все про футер */
 .footer {
   display: flex;
+  justify-content: center;
   padding-top: 60px;
   padding-bottom: 40px;
   background-color: #1f1f1f;
@@ -310,7 +311,6 @@
   list-style: none;
   display: flex;
   width: 90%;
-  margin:auto;
   justify-content: space-between;
 }
 
