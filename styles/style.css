@@ -87,7 +87,6 @@
   min-width: 1100px;
   max-width: 1600px;
   padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 .two-columns {
@@ -133,6 +132,86 @@
   font-weight: 600;
 }
 
+/* здесь все про текникс */
+.techniques {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  padding: 0;
+  margin: 0;
+  width: 920px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards__item {
+  width: 240px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards__item:nth-child(3) {
+  margin: 0;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 0 0;
+  border-radius: 50%;
+}
+
+.cards__title {
+  margin: 43px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.cards__description {
+  margin: 16px 0 0;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* здесь все про секцию видео */
+.video {
+  margin: 0 auto;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video__iframes {
+  display: flex;
+  flex-direction: row;
+}
+
+.video__iframe {
+  margin: 50px 20px 0 0;
+  border: 0;
+  width: 515px;
+  height: 318px;
+}
+
+/* здесь все про историю Оакли */
+.oakley {
+  background-color: #f2f2f2;
+  padding-top: 160px;
+}
+
 /* здесь все про диджитс */
 .digits {
   min-width: 1100px;
@@ -144,7 +223,7 @@
 
 .section-title {
   width: 60%;
-  margin: 0;
+  margin: 100px 0 0;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
@@ -154,7 +233,7 @@
 
 .section-subtitle {
   width: 60%;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
@@ -191,6 +270,73 @@
   font-size: 18px;
   font-weight: 400;
   margin: 20px 0 0 0;
+}
+
+/* здесь все про книгу Хана */
+.khan {
+  background-color: #f2f2f2;
+  padding-top: 105px;
+}
+
+.khan__conteiner {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.khan__author {
+  margin: 0;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.khan__title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.khan__quote {
+  margin: 50px 0 0;
+  width: 790px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.khan__quote-author {
+  margin: 36px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.khan__quote-author-subline {
+  margin: 10px 0 0;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.khan__book-conteiner {
+  display: flex;
+  flex-direction: row;
+}
+
+.book-pic {
+  weight: 620px;
+  height: 608px;
+}
+
+.khan__buy-link {
+  margin-left: 48px;
+  text-decoration: none;
+  color: #2f80ed;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: 400;
+  align-self: flex-start;
 }
 
 /* здесь все про Метод Фейнмана */
@@ -294,6 +440,27 @@
 
 .table__text_theme_dark {
   color: white;
+}
+
+/* здесь все про ресурсес */
+.resources {
+  padding: 100px 0 217px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.resources__logo-zone {
+  list-style: none;
+  margin: 80px auto 0;
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
 }
 
 /* здесь все про футер */
