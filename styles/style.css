@@ -17,6 +17,7 @@
   min-height: 600px;
   max-height: 756px;
   position: relative;
+  overflow: hidden;
 }
 
 .header__title {
@@ -47,6 +48,11 @@
   text-decoration: none;
   color: #2f80ed;
   z-index: 3;
+  transition: opacity 2s linear;
+}
+
+.header__link:hover {
+  opacity: 0.3;
 }
 
 .header__main-illustration {
@@ -69,6 +75,7 @@
   position: absolute;
   top: 64px;
   right: 0;
+  animation: rotation 20s infinite;
 }
 
 .logo {
@@ -337,6 +344,11 @@
   font-size: 30px;
   font-weight: 400;
   align-self: flex-start;
+  transition: opacity 2s linear;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.3;
 }
 
 /* здесь все про Метод Фейнмана */
@@ -379,6 +391,11 @@
   top: 50%;
   right: 48px;
   z-index: 4;
+  transition: opacity 2s linear;
+}
+
+.feynman__link:hover {
+  opacity: 0.3;
 }
 
 .feynman__image {
@@ -408,7 +425,8 @@
   position: absolute;
   top: 0;
   right: -210px;
-  z-index: 1;
+  z-index: 1;-mode
+  animation: rotation 20s infinite;
 }
 
 .section-title_theme_dark {
@@ -426,7 +444,6 @@
   z-index: 4;
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
@@ -444,7 +461,7 @@
 
 /* здесь все про ресурсес */
 .resources {
-  padding: 100px 0 217px;
+  padding: 0 0 217px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -461,6 +478,14 @@
 .resources__logo {
   width: 270px;
   height: 38px;
+}
+
+.resources__link {
+  transition: opasity 2s linear;
+}
+
+.resources__link:hover {
+  opacity: 0.3;
 }
 
 /* здесь все про футер */
@@ -533,4 +558,9 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
+  transition: opacity 2s linear;
+}
+
+.footer__column-link:hover {
+  opacity: 0.3;
 }
