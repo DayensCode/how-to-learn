@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="page">
     <header class="header">
@@ -17,14 +17,14 @@
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете
         использовать в своей жизни?
-        <a href="#" class="header__link">Узнать &rarr;</a>
+        <a href="#" target="_blank" class="header__link">Узнать &rarr;</a>
       </p>
       <img
         src="./images/two_again.png"
         alt="Двоечник. Картина Опять двойка."
         class="header__main-illustration"
       />
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <!--ниже блок дескрипшн-->
@@ -160,7 +160,7 @@
       <section class="feynman">
         <h4 class="feynman__title">Метод Фейнмана</h4>
         <h4 class="feynman__subtitle">Выучить и не забыть.</h4>
-        <a href="#" class="feynman__link">Подробнее &rarr;</a>
+        <a href="#" target="_blank" class="feynman__link">Подробнее &rarr;</a>
         <img
           src="./images/feynman.png"
           alt="Портрет Фейнмана."
@@ -236,7 +236,9 @@
               alt="Обложка книги Весь мир это школа."
               class="book-pic"
             />
-            <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
+            <a href="#" target="_blank" class="khan__buy-link"
+              >Купить книгу &rarr;</a
+            >
           </div>
         </div>
       </section>
@@ -310,7 +312,7 @@
             </p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
       <!--ниже блок ресурсес-->
       <section class="resources">
@@ -320,7 +322,7 @@
         </p>
         <ul class="resources__logo-zone">
           <li>
-            <a href="#" class="resources__link"
+            <a href="#" target="_blank" class="resources__link"
               ><img
                 src="./images/logo/resources-arzamas.svg"
                 alt="Логотип Арзамас."
@@ -336,7 +338,7 @@
             /></a>
           </li>
           <li>
-            <a href="#" class="resources__link"
+            <a href="#" target="_blank" class="resources__link"
               ><img
                 src="./images/logo/resources-strelka.svg"
                 alt="Логотип Стрелка."
@@ -344,7 +346,7 @@
             /></a>
           </li>
           <li>
-            <a href="#" class="resources__link"
+            <a href="#" target="_blank" class="resources__link"
               ><img
                 src="./images/logo/resources-polka.svg"
                 alt="Логотип Полка."
@@ -365,9 +367,21 @@
         <nav class="footer__column footer__column_content_info">
           <h6 class="footer__column-heading">О Практикуме</h6>
           <ul class="footer__column-links">
-            <li><a href="#" class="footer__column-link">Главная</a></li>
-            <li><a href="#" class="footer__column-link">Концепция</a></li>
-            <li><a href="#" class="footer__column-link">Наставники</a></li>
+            <li>
+              <a href="#" target="_blank" class="footer__column-link"
+                >Главная</a
+              >
+            </li>
+            <li>
+              <a href="#" target="_blank" class="footer__column-link"
+                >Концепция</a
+              >
+            </li>
+            <li>
+              <a href="#" target="_blank" class="footer__column-link"
+                >Наставники</a
+              >
+            </li>
           </ul>
         </nav>
         <!--ниже вторая навигация-->
@@ -375,7 +389,7 @@
           <h4 class="footer__column-heading">Соцсети</h4>
           <ul class="footer__column-links">
             <li>
-              <a href="#" class="footer__column-link">
+              <a href="#" target="_blank" class="footer__column-link">
                 <img
                   src="./images/facebook_color_white.svg"
                   alt="Иконка Фейсбук."
@@ -384,7 +398,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="footer__column-link">
+              <a href="#" target="_blank" class="footer__column-link">
                 <img
                   src="./images/vk_color_white.svg"
                   alt="Иконка Вконтакте."
@@ -393,7 +407,7 @@
               </a>
             </li>
             <li>
-              <a href="#" class="footer__column-link">
+              <a href="#" target="_blank" class="footer__column-link">
                 <img
                   src="./images/instagram_color_white.svg"
                   alt="Иконка Инстаграм."
