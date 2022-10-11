@@ -1,5 +1,4 @@
 @import url(../vendor/normalize.css);
-@import url(../blocks/rotation/rotation.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/book-pic/book-pic.css);
 
@@ -84,3 +83,4 @@
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/video__iframe/video__iframe.css);
 @import url(../blocks/video/video__iframes/video__iframes.css);
+@import url(../blocks/rotation/rotation.css);
