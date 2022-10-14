@@ -1,21 +1,29 @@
 @import url(../vendor/normalize.css);
+
+/* импорт блока пейдж */
 @import url(../blocks/page/page.css);
 
+/* здесь все про блок кардс */
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/cards/__image/cards__image.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__title/cards__title.css);
 
+/* импорт секции дескрипшн */
 @import url(../blocks/description/description.css);
+
+/* импорт секции диджитс */
 @import url(../blocks/digits/digits.css);
 
+/* импорт секции про метод Фейнмана */
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__image/feynman__image.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
 @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
 
+/* импорт футера */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_info.css);
@@ -26,6 +34,7 @@
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 
+/* импорт хедера */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
@@ -33,9 +42,11 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__title/header__title.css);
 
+/* импорт секции про принципы Кауфмана */
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
+/* импорт секции про книгу Хана */
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__author/khan__author.css);
 @import url(../blocks/khan/__book-container/khan__book-container.css);
@@ -47,23 +58,29 @@
 @import url(../blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 @import url(../blocks/khan/__title/khan__title.css);
 
+/* здесь все про блок лого */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 
+/* импорт секции про историю Оакли */
 @import url(../blocks/oakley/oakley.css);
 
+/* импорт секции ресурсес */
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 
+/* здесь все про блок секшн сабтайтл */
 @import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
+/* здесь все про блок секшн тайтл */
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 
+/* здесь все про блок тэйбл */
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/_theme/table_theme_dark.css);
 @import url(../blocks/table/__cell/table__cell.css);
@@ -71,16 +88,20 @@
 @import url(../blocks/table/__heading/table__heading.css);
 @import url(../blocks/table/__text/table__text.css);
 
+/* импорт секции текникс */
 @import url(../blocks/techniques/techniques.css);
 
+/* здесь все про блок ту коламнс */
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
+/* импорт секции видео */
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 
+/* импорт анимации */
 @import url(../blocks/rotation/rotation.css);
