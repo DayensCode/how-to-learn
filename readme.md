@@ -1,12 +1,14 @@
-# Учебный frontend-проект: "Научиться учиться"
+# Frontend-проект: "Научиться учиться"
 
 ## Описание проекта
 
-Данная проектная работа выполнена в рамках образовательной программы Яндекс Практикума. Одностраничный сайт, который посвящен современным и эффективным подходам к обучению.
+Одностраничный сайт, который посвящен современным и эффективным подходам к обучению.
+
+![image](https://user-images.githubusercontent.com/92729800/204333378-fe6587a9-8fa9-44ff-b8f3-c82c5750cbd9.png)
 
 ### Ссылки на брифы
 
-[Бриф 1](https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf)
+[Бриф 1](https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf),
 [Бриф 2](https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf)
 
 ## Используемые языки
